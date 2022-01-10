@@ -1,5 +1,5 @@
 resource "aws_default_vpc" "conflab_vpc" {
   tags = {
-    Name = "Conflab VPC"
+    Name = "Conflab default VPC"
   }
 }
